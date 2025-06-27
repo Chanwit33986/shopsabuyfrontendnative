@@ -7,12 +7,25 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android:staging": "react-native run-android --mode=stagingdebug",
+    "android:staging-release": "react-native run-android --mode=stagingrelease",
+    "android:dev": "react-native run-android --mode=developmentdebug",
+    "android:dev-release": "react-native run-android --mode=developmentrelease",
+    "android:prod": "react-native run-android --mode=productiondebug",
+    "android:prod-release": "react-native run-android --mode=productionrelease",
+    "ios:dev": "react-native run-ios --scheme 'MyAppDevelopment'",
+    "ios:dev-release": "react-native run-ios --configuration Release --scheme 'MyAppDevelopment'",
+    "ios:prod": "react-native run-ios --scheme 'MyAppProduction'",
+    "ios:prod-release": "react-native run-ios --configuration Release --scheme 'MyAppProduction'",
+    "ios:staging": "react-native run-ios --scheme 'shopsabuyfrontendnativeStaging'",
+    "ios:staging-release": "react-native run-ios --configuration Release --scheme 'shopsabuyfrontendnativeStaging'"
   },
   "dependencies": {
+    "@react-native/new-app-screen": "0.80.0",
     "react": "19.1.0",
     "react-native": "0.80.0",
-    "@react-native/new-app-screen": "0.80.0"
+    "react-native-config": "^1.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
