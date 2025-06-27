@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1210"
-   version = "1.3">
+   LastUpgradeVersion = "1620"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <PreActions>
          <ExecutionAction
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;.env.production&quot; &gt; /tmp/envfile&#10;">
+               scriptText = "echo &quot;.env.development&quot; &gt; /tmp/envfile&#10;">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -23,9 +24,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "shopsabuyfrontendnative.app"
-               BlueprintName = "shopsabuyfrontendnative"
+               BlueprintIdentifier = "56EB52EA2E0F03F500C335EB"
+               BuildableName = "shopsabuyfrontendnativeDev.app"
+               BlueprintName = "shopsabuyfrontendnativeDev"
                ReferencedContainer = "container:shopsabuyfrontendnative.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,19 +36,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "shopsabuyfrontendnativeTests.xctest"
-               BlueprintName = "shopsabuyfrontendnativeTests"
-               ReferencedContainer = "container:shopsabuyfrontendnative.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,7 +54,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;.env.production&quot; &gt; /tmp/envfile&#10;">
+               scriptText = "echo &quot;.env.development&quot; &gt; /tmp/envfile&#10;">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -72,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "shopsabuyfrontendnative.app"
-            BlueprintName = "shopsabuyfrontendnative"
+            BlueprintIdentifier = "56EB52EA2E0F03F500C335EB"
+            BuildableName = "shopsabuyfrontendnativeDev.app"
+            BlueprintName = "shopsabuyfrontendnativeDev"
             ReferencedContainer = "container:shopsabuyfrontendnative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +79,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "shopsabuyfrontendnative.app"
-            BlueprintName = "shopsabuyfrontendnative"
+            BlueprintIdentifier = "56EB52EA2E0F03F500C335EB"
+            BuildableName = "shopsabuyfrontendnativeDev.app"
+            BlueprintName = "shopsabuyfrontendnativeDev"
             ReferencedContainer = "container:shopsabuyfrontendnative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
