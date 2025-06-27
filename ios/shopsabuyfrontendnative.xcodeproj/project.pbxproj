@@ -10,18 +10,18 @@
 		0C0670BF09CD8C8F6CB5F055 /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C861965CA24C8E1254FFDB /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		20BE924DF402C8A324EA7D75 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		44D1B472BD368BCD0A7EA8D8 /* libPods-shopsabuyfrontendnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6547AE70309FC8ECAADB11 /* libPods-shopsabuyfrontendnative.a */; };
+		44D1B472BD368BCD0A7EA8D8 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		4938486A0D08E32E06D019F6 /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6093FEE2DEC28891EE6531 /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.a */; };
 		56EB52DB2E0EF68900C335EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		56EB52DF2E0EF68900C335EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		56EB52E02E0EF68900C335EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		56EB52E12E0EF68900C335EB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		56EB52ED2E0F03F500C335EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		56EB52EF2E0F03F500C335EB /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		56EB52F22E0F03F500C335EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		56EB52F32E0F03F500C335EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		56EB52F42E0F03F500C335EB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7E59C47D5CE8E047A83D5EA5 /* libPods-shopsabuyfrontendnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3682A0FFC41F4C487E55B10 /* libPods-shopsabuyfrontendnative.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		ECFAB3F6352F0B0DCBDA3212 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = shopsabuyfrontendnative/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A6093FEE2DEC28891EE6531 /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE32F7A0912D650EFCA87B4 /* Pods-shopsabuyfrontendnativeCommonPods-shopsabuyfrontendnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopsabuyfrontendnativeCommonPods-shopsabuyfrontendnative.debug.xcconfig"; path = "Target Support Files/Pods-shopsabuyfrontendnativeCommonPods-shopsabuyfrontendnative/Pods-shopsabuyfrontendnativeCommonPods-shopsabuyfrontendnative.debug.xcconfig"; sourceTree = "<group>"; };
+		C3682A0FFC41F4C487E55B10 /* libPods-shopsabuyfrontendnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopsabuyfrontendnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8385AAFB51DB703663D4B8 /* Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.release.xcconfig"; path = "Target Support Files/Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev/Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F3F04BAD5BFCAB770E74A74E /* Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.release.xcconfig"; path = "Target Support Files/Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging/Pods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,7 +59,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE924DF402C8A324EA7D75 /* BuildFile in Frameworks */,
-				44D1B472BD368BCD0A7EA8D8 /* libPods-shopsabuyfrontendnative.a in Frameworks */,
+				44D1B472BD368BCD0A7EA8D8 /* BuildFile in Frameworks */,
+				7E59C47D5CE8E047A83D5EA5 /* libPods-shopsabuyfrontendnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				8A6093FEE2DEC28891EE6531 /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeStaging.a */,
 				60C861965CA24C8E1254FFDB /* libPods-shopsabuyfrontendnative-shopsabuyfrontendnativeDev.a */,
+				C3682A0FFC41F4C487E55B10 /* libPods-shopsabuyfrontendnative.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
